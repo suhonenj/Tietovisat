@@ -1,0 +1,22 @@
+Kumpi tulee aakkosissa ensin?\n 1. 'b', 2. 'a'",
+2
+Onko Jake kovin jätkä kaikista?\n 1. On, 2. Ei",
+1
+Prätkähiirien Lallin sukunimi?\n 1. Leipäjuusto, 2. Juustohöylä",
+1
+Mikä on Suomen pääkaupunki?\n 1. Hankasalmi, 2. Helsinki",
+2
+Mikä on Jaken oikea etunimi?\n 1. Jarkko, 2. Jaakko, 3. Jake",
+3
+Mikä ei kuulu joukkoon?\n 1. Tupu. 2. Hupu, 3. Lupu, 4. Zubu",
+4
+Mikä näistä on limonadi?\n 1. Dr. Pöppör, 2. Dr. Pepper, 3. Dr. Popper",
+2
+1 + 2 = ? \n 1. 1, 2. 2, 3. 3",
+3
+Kumpi on väkiluvultaan suurempi?\n 1. Hankasalmi, 2. Helsinki",
+2
+Kumpi on automerkki?\n 1. BWM, 2. BMW",
+2
+Kumpi näistä on musiikkifestivaali?\n 1. Kihveli soikoon!, 2. Kehveli soikoon!",
+1
