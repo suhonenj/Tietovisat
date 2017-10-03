@@ -5,10 +5,10 @@ import java.util.List;
 public class Visailu {
     private int counter;
     private int pisteet;
-    List<Kysymys> kysymykset = new ArrayList<>();
+    List<Kysymys2> kysymykset = new ArrayList<>();
 
     public Visailu() {
-        Kysymys k1 = new Kysymys();
+        Kysymys2 k1 = new Kysymys2();
         k1.setKysymys("Mikä Euroviisubiisi voitti Eurovision-laulukisat vuonna 1975?");
         ArrayList<String> vastausvaihtoehdot1 = new ArrayList<>();
         vastausvaihtoehdot1.add("Waterloo");
@@ -18,7 +18,7 @@ public class Visailu {
         k1.setOikeaVastaus(1);
         kysymykset.add(k1);
 
-        Kysymys k2 = new Kysymys();
+        Kysymys2 k2 = new Kysymys2();
         k2.setKysymys("Minä vuonna alkoi ranskan vallankumous?");
         ArrayList<String> vastausvaihtoehdot2 = new ArrayList<>();
         vastausvaihtoehdot2.add("1798");
@@ -28,7 +28,7 @@ public class Visailu {
         k2.setOikeaVastaus(0);
         kysymykset.add(k2);
 
-        Kysymys k3 = new Kysymys();
+        Kysymys2 k3 = new Kysymys2();
         k3.setKysymys("Onko Suomen koripallomaajoukkueen lempinimi?");
         ArrayList<String> vastausvaihtoehdot3 = new ArrayList<>();
         vastausvaihtoehdot3.add("Kettuposse");
@@ -38,7 +38,7 @@ public class Visailu {
         k3.setOikeaVastaus(1);
         kysymykset.add(k3);
 
-        Kysymys k4 = new Kysymys();
+        Kysymys2 k4 = new Kysymys2();
         k4.setKysymys("Kuka suunnitteli Kiasman?");
         ArrayList<String> vastausvaihtoehdot4 = new ArrayList<>();
         vastausvaihtoehdot4.add("Alvar Aalto");
@@ -48,7 +48,7 @@ public class Visailu {
         k4.setOikeaVastaus(2);
         kysymykset.add(k4);
 
-        Kysymys k5 = new Kysymys();
+        Kysymys2 k5 = new Kysymys2();
         k5.setKysymys("Mikä on Suomen kansallisperhonen?");
         ArrayList<String> vastausvaihtoehdot5 = new ArrayList<>();
         vastausvaihtoehdot5.add("Neitoperhonen");
@@ -58,7 +58,7 @@ public class Visailu {
         k5.setOikeaVastaus(2);
         kysymykset.add(k5);
 
-        Kysymys k6 = new Kysymys();
+        Kysymys2 k6 = new Kysymys2();
         k6.setKysymys("Kuka on Ville Saksi?");
         ArrayList<String> vastausvaihtoehdot6 = new ArrayList<>();
         vastausvaihtoehdot6.add("Terrafamen toimitusjohtaja");
@@ -68,7 +68,7 @@ public class Visailu {
         k6.setOikeaVastaus(1);
         kysymykset.add(k6);
 
-        Kysymys k7 = new Kysymys();
+        Kysymys2 k7 = new Kysymys2();
         k7.setKysymys("Mikä on tunnetun suomalaisräppärin Pikku G:n oikea nimi?");
         ArrayList<String> vastausvaihtoehdot7 = new ArrayList<>();
         vastausvaihtoehdot7.add("Henri Vähäkainu");
@@ -78,7 +78,7 @@ public class Visailu {
         k7.setOikeaVastaus(1);
         kysymykset.add(k7);
 
-        Kysymys k8 = new Kysymys();
+        Kysymys2 k8 = new Kysymys2();
         k8.setKysymys("Kuinka monta kirjaa on kirjasarjassa Harry Potter?");
         ArrayList<String> vastausvaihtoehdot8 = new ArrayList<>();
         vastausvaihtoehdot8.add("Enemmän kuin 4");
@@ -88,7 +88,7 @@ public class Visailu {
         k8.setOikeaVastaus(2);
         kysymykset.add(k8);
 
-        Kysymys k9 = new Kysymys();
+        Kysymys2 k9 = new Kysymys2();
         k9.setKysymys("Mikä on Tuvalun pääkaupunki?");
         ArrayList<String> vastausvaihtoehdot9 = new ArrayList<>();
         vastausvaihtoehdot9.add("Futanafu");
@@ -98,7 +98,7 @@ public class Visailu {
         k9.setOikeaVastaus(2);
         kysymykset.add(k9);
 
-        Kysymys k10 = new Kysymys();
+        Kysymys2 k10 = new Kysymys2();
         k10.setKysymys("Kuka kouluttaa parhaita IT-konsultteja?");
         ArrayList<String> vastausvaihtoehdot10 = new ArrayList<>();
         vastausvaihtoehdot10.add("Academy");
