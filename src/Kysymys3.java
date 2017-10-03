@@ -2,13 +2,13 @@
 import java.util.List;
 
 
-public class Kysymys {
+public class Kysymys3 {
     private String kysymysteksti;
     private List<String> vastausvaihtoehdot;
     private int oikeavastausindeksi;
 
 
-    public Kysymys(String kysymysteksti, List<String> vastausvaihtoehdot, int oikeavastausindeksi)  {
+    public Kysymys3(String kysymysteksti, List<String> vastausvaihtoehdot, int oikeavastausindeksi)  {
         this.kysymysteksti = kysymysteksti;
         this.vastausvaihtoehdot = vastausvaihtoehdot;
         this.oikeavastausindeksi = oikeavastausindeksi;

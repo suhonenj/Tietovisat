@@ -9,7 +9,7 @@ public class Paaohjelma {
         int indeksi = 0;
 
         for (int i = 0; i < 10; i++) {
-            Kysymys kysymys = kysyja.tulostaKysymys(indeksi);
+            Kysymys3 kysymys = kysyja.tulostaKysymys(indeksi);
             System.out.print("Anna vastauksen numero: ");
             int vastaus = Integer.parseInt(lukija.nextLine());
             if (vastaus == kysymys.getOikeavastausindeksi()) {
